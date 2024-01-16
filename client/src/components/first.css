@@ -1,0 +1,46 @@
+.main_first_div {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20;
+}
+.main_first_div .top {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+  /* background-color: aliceblue; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+}
+.main_first_div .top h2 {
+  font: 600 2rem "poppins";
+  margin: 0;
+}
+.main_first_div input {
+  width: 200px;
+  padding: 10px;
+}
+.main_first_div button {
+  width: 100px;
+  padding: 10px;
+  background-color: aqua;
+  align-self: flex-start;
+}
+.main_first_div .update_button {
+  width: 200px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: rgb(212, 117, 0);
+  align-self: flex-start;
+}
+.main_first_div .result {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  width: 400px;
+  /* align-self: flex-start; */
+}
